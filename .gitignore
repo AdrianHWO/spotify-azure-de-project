@@ -1,0 +1,10 @@
+# Ignore the Python virtual environment
+venv/
+__pycache__/
+
+# Ignore the actual data (we only want to push the code)
+data_lake/
+*.log
+
+# Ignore environment variables/secrets
+.env
